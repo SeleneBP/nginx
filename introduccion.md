@@ -9,7 +9,7 @@ Compañías que utilizan Nginx:
 	- Linkdin
 	- CISCO
 	- INTEL
-Y muchas compañías más
+Y muchas compañías más.
 
 Es servidor está diseñado para ofrecer un bajo uso de memoria y alta concurrencia. Es una buena elección para sitio web de mucho tráfico, como motores de búsqueda, almacenamiento en la nube y comercio electrónico.
 

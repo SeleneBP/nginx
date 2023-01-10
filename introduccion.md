@@ -1,8 +1,4 @@
-# NGINX
-## ÍNDICE
+# INTRODUCCIÓN
 
-- Introducción
-- Comparativa con Apache
-- Instalación
-- Casos prácticos
-- Referencias
+
+

@@ -1,8 +1,8 @@
 # NGINX
 ## ÍNDICE
 
-- Introducción
-- Comparativa con Apache
-- Instalación
-- Casos prácticos
-- Referencias
+- [Introducción](https://github.com/SeleneBP/nginx/blob/main/introduccion.md)
+- [Comparativa con Apache]
+- [Instalación]
+- [Casos prácticos]
+- [Referencias]

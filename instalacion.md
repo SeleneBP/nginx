@@ -30,7 +30,7 @@ Personalizamos la página de nginx. Creamos un `index.html` apartir del que vien
 
 ![image](https://user-images.githubusercontent.com/91204696/211751244-32f83c39-1da5-407f-afa5-5435320f6746.png)
 
-
+______________________________________________________________________________________________________________________
 #### LICENCIA
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.

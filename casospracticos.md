@@ -15,6 +15,11 @@ Lo que esta subrayado en la siguiente imagen, es el orden de carga que tiene ngi
 
 ![image](https://user-images.githubusercontent.com/91204696/211751743-531c0dad-f943-4193-871f-d9e287d9cd96.png)
 
+Le pondremos una red interna y una ip.
+
+![image](https://user-images.githubusercontent.com/91204696/211765100-7ae3b93e-508b-40a2-a513-3c04d2ae20f4.png)
+
+
 Ahora configuramos el balanceo de carga.
 
 Necesitaremos 3 máquinas: La principal que es donde estará el balanceo de carga, el servidor 1 y el servidor 2.

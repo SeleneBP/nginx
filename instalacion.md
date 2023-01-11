@@ -14,8 +14,9 @@ Vemos el estado.
 
 ![image](https://user-images.githubusercontent.com/91204696/211750455-8271c6f5-ae5d-4e8b-9bb6-3f26f4f91193.png)
 
-Habilitamos el puerto ***http*** y ***https***
-Primero instalamos el comando `ufw` y habilitamos el puerto `ufw allow http` / `ufw allow https`
+Habilitamos los puerto ***http*** y ***https***
+
+Primero instalamos el comando `ufw` y habilitamos los puertos `ufw allow http` y `ufw allow https`
 
 ![image](https://user-images.githubusercontent.com/91204696/211745024-a03a64f0-4283-4e03-945a-266ee7ce66c0.png)
 

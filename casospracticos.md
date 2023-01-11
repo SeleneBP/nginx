@@ -26,6 +26,7 @@ Primero de todo borramos el `default` de `/etc/nginx/sites-enable`
 Creamos el fichero `load-balacing-conf` y pegamos lo siguiente
 
     upstream backend {
+    	ip_hash;
         server 172.26.0.123;
         erver 172.26.0.124;
     }

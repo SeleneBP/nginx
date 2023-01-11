@@ -17,15 +17,17 @@ Lo que esta subrayado en la siguiente imagen, es el orden de carga que tiene ngi
 
 Ahora configuramos el balanceo de carga.
 
+Necesitaremos 3 máquinas: La principal que es donde estará el balanceo de carga, el servidor 1 y el servidor 2.
+
 Primero de todo borramos el `default` de `/etc/nginx/sites-enable`
 
-![image](https://user-images.githubusercontent.com/91204696/211753449-61409722-837f-47d8-9f59-ad776d592bb1.png)
+![image](https://user-images.githubusercontent.com/91204696/211763462-365f7cf3-0cea-4a8d-ab1e-a5aa72aeeb5d.png)
 
 Creamos el fichero `load-balacing-conf` y pegamos lo siguiente
 
     upstream backend {
-        server 192.168.10.11;
-        server 192.168.10.12;
+        server 172.26.0.123;
+        erver 172.26.0.124;
     }
     
     server {
@@ -41,7 +43,15 @@ Creamos el fichero `load-balacing-conf` y pegamos lo siguiente
 	    }
      }
 
-![image](https://user-images.githubusercontent.com/91204696/211755401-1c6dff53-28d8-43cf-87a0-58da48fece65.png)
+![image](https://user-images.githubusercontent.com/91204696/211764319-ae383a3d-2ea6-499a-9433-5c95fa5d1c42.png)
+
+Comprobamos la sintaxis.
+
+![image](https://user-images.githubusercontent.com/91204696/211755564-b3c2a483-399a-4d22-bc2c-f9941e373c2f.png)
+
+Y reiniciamos el servicio.
+
+![image](https://user-images.githubusercontent.com/91204696/211755684-883c5d41-58a9-438c-ae18-bb7b445f4f67.png)
 
 _________________________________________________________________________________________________________________
 

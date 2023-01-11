@@ -24,6 +24,8 @@ Ahora configuramos el balanceo de carga.
 
 Necesitaremos 3 máquinas: La principal que es donde estará el balanceo de carga, el servidor 1 y el servidor 2.
 
+Servidor Nginx:
+
 Primero de todo borramos el `default` de `/etc/nginx/sites-enable`
 
 ![image](https://user-images.githubusercontent.com/91204696/211763462-365f7cf3-0cea-4a8d-ab1e-a5aa72aeeb5d.png)
@@ -48,6 +50,8 @@ Creamos el fichero `load-balacing-conf` y pegamos lo siguiente
 		proxy_pass http://backend;
 	    }
      }
+
+El ip-hash es un algoritmo que se usa para crear una clave hash única. 
 
 ![image](https://user-images.githubusercontent.com/91204696/211764319-ae383a3d-2ea6-499a-9433-5c95fa5d1c42.png)
 
@@ -82,7 +86,7 @@ En ambos servidores vamos a crear un index.html personalizado.
 
 ![image](https://user-images.githubusercontent.com/91204696/211768858-d9e60fb9-5c68-4350-9c2c-d041a77f56c8.png)
 
-Ahora en el servidor nginx no meteremos en firefox y comprobamos el balanceo de carga. 
+Ahora en el servidor nginx nos meteremos en firefox y comprobamos el balanceo de carga. 
 _________________________________________________________________________________________________________________
 
 #### LICENCIA

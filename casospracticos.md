@@ -59,6 +59,9 @@ Y reiniciamos el servicio.
 
 ![image](https://user-images.githubusercontent.com/91204696/211755684-883c5d41-58a9-438c-ae18-bb7b445f4f67.png)
 
+Configuramos los otros dos servidores.
+
+
 _________________________________________________________________________________________________________________
 
 #### LICENCIA

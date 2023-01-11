@@ -60,7 +60,25 @@ Y reiniciamos el servicio.
 ![image](https://user-images.githubusercontent.com/91204696/211755684-883c5d41-58a9-438c-ae18-bb7b445f4f67.png)
 
 Configuramos los otros dos servidores.
+Les ponemos las ips:
 
+***Servidor 1***
+
+![image](https://user-images.githubusercontent.com/91204696/211766241-f234da03-b034-4026-acb5-9cd41e2e13bd.png)
+
+
+***Servidor 2***
+
+![image](https://user-images.githubusercontent.com/91204696/211766658-4a474ddb-6b3f-4e24-9253-331dc2eb109e.png)
+
+En ambos servidores vamos a crear un index.html personalizado.
+
+***Servidor 1***
+
+![image](https://user-images.githubusercontent.com/91204696/211767938-324f6a03-a449-4d46-98b3-13ad381ea259.png)
+
+
+***Servidor 2***
 
 _________________________________________________________________________________________________________________
 

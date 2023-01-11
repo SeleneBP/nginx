@@ -82,7 +82,7 @@ En ambos servidores vamos a crear un index.html personalizado.
 
 ![image](https://user-images.githubusercontent.com/91204696/211768858-d9e60fb9-5c68-4350-9c2c-d041a77f56c8.png)
 
-
+Ahora en el servidor nginx no meteremos en firefox y comprobamos el balanceo de carga. 
 _________________________________________________________________________________________________________________
 
 #### LICENCIA
